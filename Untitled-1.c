@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 int main ()
 {
         int x,y1;
@@ -9,6 +9,7 @@ int main ()
             int y2=50;
             y1=y1+y2;
         }
-    printf("x=%d, y1=%d\n",x,y1);
+        
+    std::cout<< "x=" << x << " y1= " << y1<< std::endl;
     return 0;
 }

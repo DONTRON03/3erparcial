@@ -12,7 +12,7 @@
         if (subtotal>1000) {
             descuento = subtotal *0,1;
             std::cout<< "El descuento es de: " << descuneto << std::endl;
-
+		}		
         if (subtotal>2000){
             descuento = subtotal *0.2;
             std::cot<< "el descuento es de: " << descuento << std::endl;
