@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <iostream>
 int main()
 {
     char primero, ultimo;
-    printf("introduzca su primer y ultima inicial: \n");
-    scanf("%c %cB",&primero,&ultimo);
-    printf("hola, %c.%c.\n",primero,ultimo);
+    std::cout << "introduzca su primer y ultima inicial: " << std::endl;
+    std::cin >>primero >> ultimo;
+    std::cout << "hola " << primero << "."<< ultimo;
     return 0;
 } 

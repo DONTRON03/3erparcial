@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <iostream>
 #define T "tambor de hojalata"
 int main ()
 {
     char st[21]="todo puede hacerse";
-    puts(T);
-    puts("Permiso para salir en la foto");
-    puts(st);
-    puts(&st[8]);
+    std::cout << T << std::endl;
+    std::cout << "Permiso para salir en la foto" <<std::endl;
+    std::cout << st <<std::endl;
+    std::cout << &st[8] << std::endl;
     return 0;
 }
