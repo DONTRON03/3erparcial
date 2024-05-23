@@ -1,26 +1,28 @@
-#include <studio.h>
+#include <iostream>
     int main() {
         int producto, unidad, subtotal, precio, descuento, iva;
-        scanf("%d",&unidad);
-        printf("cantidad de unidades = %d",unidad);
-        scanf("%d",&precio);
-        printf("precio= %d",precio);
+        std::cin>> unidad;
+        std::cout<< "cantidad de unidades = " << unidad <<std::endl;
+        std::cin>> precio;
+        std::cout<< "precio= " << precio << std::endl;
         subtotal = unidad * precio;
         if (subtotal<1000) {
             descuento = subtotal *0;
         }
         if (subtotal>1000) {
             descuento = subtotal *0,1;
-            printf("El descuento es de: %d", descuneto);
-        }
+            std::cout<< "El descuento es de: " << descuneto << std::endl;
+
         if (subtotal>2000){
             descuento = subtotal *0.2;
-            printf("el descuento es de: %d",descuento);
+            std::cot<< "el descuento es de: " << descuento << std::endl;
         }
             if (subtotal>3000){
                 descuento = subtotal *0.3;
             }
             iva = subtotal* 0.16;
             total = subtotal - descuento * iva;
-            printf(" El total es de: %d",total)
+            std::cout<< " El total es de: " << total << std::endl;
+            
+            return 0;
     }  
