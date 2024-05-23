@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main () {
-printf("El tamaño de variables de coma flotante es %d", sizeof (float));
-printf(" bytes\n");
-printf("El tamaño de variables de doble precision es %d", sizeof (double));
-printf(" bytes\n");
+std::cout<< "El tamaÃ±o de variables de coma flotante es " << sizeof (float) << std::endl;
+std::cout<< "  bytes "<< std::endl;
+std::cout<< "El tamaÃ±o de variables de doble precision es "<< sizeof (double)<< std::endl;
+std::cout<< "  bytes "<< std::endl;
 
 return 0;
 }
