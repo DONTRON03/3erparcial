@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include <iostream>
 
 int main (){
 int a,b,c;
@@ -12,12 +11,13 @@ coord_y=725;
 a=b=c=45;
 a=(b=(c=45)); 
 
-printf("%i valor de la variable 'codigo' \n", codigo);
-printf("%i valor de la variable 'fahrenheit' \n", fahrenheit);
-printf("%i valor de la variable 'coord_x' \n", coord_x);
-printf("%i valor de la variable 'coord_y'\n", coord_y);
-printf("%i valor de la variable 'a' \n",a);
-printf("%i valor de la variable 'b'\n",b); printf("%i valor de la variable 'c'\n",c);
+std::cout<<codigo << " valor de la variable 'codigo' " << std::endl;
+std::cout<< fahrenheit << " valor de la variable 'fahrenheit' " << fahrenheit << std::endl;
+std::cout<< " valor de la variable 'coord_x': " << coord_x << std::endl;
+std::cout<< coord_y << " valor de la variable 'coord_y' " << std::endl;
+std::cout<< a << " valor de la variable 'a' " << std::endl;
+std::cout<< b << " valor de la variable 'b'" << std::endl;
+std::cout<< c << " valor de la variableÂ 'c'" << std::endl;
 
 
 }
