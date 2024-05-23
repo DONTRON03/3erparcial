@@ -4,8 +4,8 @@ int main (){
 int a,b,c;
 int codigo, fahrenheit, coord_x, coord_y;
 
-codigo 3467;
-fahrenheit 123.456;
+codigo ;3467;
+fahrenheit ; 123.456;
 coord_x=525;
 coord_y=725;
 a=b=c=45;
