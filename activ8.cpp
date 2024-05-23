@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <iostream>
 int main ()
 {
 int m=45, n =75;
-printf("m=%d, n=%d, \n",m,n);
+std::cout<< "m=" << m << "n=" << n << std::endl;
 ++m;
 --n;
-printf("m=%d, n=%d\n",m,n);
+std::cout<< "m=" << m << "n=" << n << std::endl;
 m++;
 n--;
-printf("m=%d, n=%d, \n",m,n);
+std::cout<< "m=" << m << "n=" << n << std::endl;
 }
