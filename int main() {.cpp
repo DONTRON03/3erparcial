@@ -1,10 +1,12 @@
-#include "stdio.h"
+#include <iostream>
     int main() {
         int producto,unidad,subtotal,precio;
-        scanf("%d",&unidad);
-        printf("cantidad de unidades:%d",unidad);
-        scanf("%d",&precio)
-        printf("precio:%d",precio);
+        std::cin>> unidad;
+        std::cout<< "cantidad de unidades:" <<unidad<<std::endl;
+        std::cin>> precio;
+        std::cout<< "precio: " << precio << std::endl;
         subtotal = unidad * precio;
-        printf("%d",subtotal);
+        std::cout << subtotal << std::endl;
+        
+        return 0;
     }
