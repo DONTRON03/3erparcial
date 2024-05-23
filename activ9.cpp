@@ -1,15 +1,11 @@
-include <stdio.h>
-
-7
-
+include <iostream>
 int main () {
-
 int m=99, n;
 n= ++m;
-printf("m= %d, n=%d\n", m,n);
+std::cout<< "m= " << m << "n= " << n << std::endl;
 n= ++m;
-printf("m= %d, n=%d\n", m,n);
-printf("m= %d\n", m++); printf("m= %d\n", ++m);
-
+std::cout << "m= " << m << "n= " << n << std::endl;
+std::cout << "m= " << m++ << std::endl;
+std::cout << "m= " << ++m << std::endl;
 return 0;
 }
