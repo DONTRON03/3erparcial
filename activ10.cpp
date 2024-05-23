@@ -1,9 +1,8 @@
-#include <stdio.h>
+#include <iostream>
 int main () {
 int n=5,t;
 t= ++n*--n;
-printf("n= %d, t=%d\n",n,t);
-printf("%d %d %d\n", ++n, ++n, ++n);
-
-return 0;
+std::cout << "n= " << n << "t= " << t << std::endl;
+std::cout << ++n << ++n << ++n << std::endl;
+returnÂ 0;
 }
