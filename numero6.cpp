@@ -4,14 +4,14 @@
 int main() {
     int acum = 0;
     int t;
-    std::cout << "Digite el tamaño del vector (arreglo): ";
+    std::cout << "Digite el tamaÃ±o del vector (arreglo): ";
     std::cin >> t;
 
     int vector[t];
 
     for (int i = 1; i <= t; ++i) {
         int num;
-        std::cout << "Digite un número: ";
+        std::cout << "Digite un nÃºmero: ";
         std::cin >> num;
         vector[i] = num;
         acum += vector[i];
