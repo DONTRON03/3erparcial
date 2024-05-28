@@ -16,12 +16,12 @@ int main() {
 
     std::cout << "Arreglo 1:" << std::endl;
     for (int i = 0; i < 2; ++i) {
-        std::cout << "El dato en la posición " << i + 1 << " es " << arreglo[i] << std::endl;
+        std::cout << "El dato en la posiciÃ³n " << i + 1 << " es " << arreglo[i] << std::endl;
     }
 
     std::cout << "Arreglo 2:" << std::endl;
     for (int i = 1; i <= 3; ++i) {
-        std::cout << "El dato en la posición " << i << " es " << arreglo2[i] << std::endl;
+        std::cout << "El dato en la posiciÃ³n " << i << " es " << arreglo2[i] << std::endl;
     }
 
 }
