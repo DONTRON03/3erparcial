@@ -4,14 +4,14 @@
 int main() {
     int cont = 0;
     int p;
-    std::cout << "Digite el número de posiciones (tamaño): ";
+    std::cout << "Digite el nÃºmero de posiciones (tamaÃ±o): ";
     std::cin >> p;
 
     int num[p];
 
     for (int i = 1; i <= p; ++i) {
         int numero;
-        std::cout << "Digite el número " << i << ": ";
+        std::cout << "Digite el nÃºmero " << i << ": ";
         std::cin >> numero;
 
         num[i] = numero;
@@ -20,6 +20,6 @@ int main() {
             cont = cont + 1;
         }
     }
-    std::cout << "Hay " << cont << " números positivos." << std::endl;
+    std::cout << "Hay " << cont << " nÃºmeros positivos." << std::endl;
 }
 
