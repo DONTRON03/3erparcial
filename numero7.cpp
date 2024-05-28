@@ -3,7 +3,7 @@
 int main() {
 	int acum=0;
 	int t;
-	std::cout<< "digite el tamaño del vector (arreglo) " << std::endl;
+	std::cout<< "digite el tamaÃ±o del vector (arreglo) " << std::endl;
 	std::cin>> t;
 	
 	int vector[t];
