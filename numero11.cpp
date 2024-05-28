@@ -16,6 +16,6 @@ int main() {
     int pos;
     std::cout << "Digite la posicion: ";
     std::cin >> pos;
-    std::cout << "El país en la posicion " << pos << " es: " << paises[pos] << std::endl;
+    std::cout << "El paÃ­s en la posicion " << pos << " es: " << paises[pos] << std::endl;
     }
 
