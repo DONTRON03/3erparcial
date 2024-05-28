@@ -3,20 +3,20 @@
 
 int main() {
     int n;
-    std::cout << "Digite el número de posiciones: ";
+    std::cout << "Digite el nÃºmero de posiciones: ";
     std::cin >> n;
 
     int num[n];
     for (int i = 0; i < n; ++i) {
         int numero;
-        std::cout << "Digite un número para la posición " << i << ": ";
+        std::cout << "Digite un nÃºmero para la posiciÃ³n " << i << ": ";
         std::cin >> numero;
         num[i] = numero;
     }
 
     std::cout << "Los datos en las posiciones son:" << std::endl;
     for (int i = 0; i < n; ++i) {
-        std::cout << "El dato en la posición " << i << " es " << num[i] << std::endl;
+        std::cout << "El dato en la posiciÃ³n " << i << " es " << num[i] << std::endl;
     }
 
 }
