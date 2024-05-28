@@ -6,13 +6,13 @@ int main() {
     int acum2 = 0;
     int t;
 
-    std::cout << "Digite el tamaño del primer vector (arreglo): ";
+    std::cout << "Digite el tamaÃ±o del primer vector (arreglo): ";
     std::cin >> t;
 
     int vector[t];
     for (int i = 1; i <= t; ++i) {
         int num;
-        std::cout << "Digite un número: ";
+        std::cout << "Digite un nÃºmero: ";
         std::cin >> num;
         vector[i] = num;
         acum += vector[i];
@@ -20,13 +20,13 @@ int main() {
 
     std::cout << "La suma de los elementos del primer vector es: " << acum << std::endl;
 
-    std::cout << "Digite el tamaño del segundo vector (arreglo): ";
+    std::cout << "Digite el tamaÃ±o del segundo vector (arreglo): ";
     std::cin >> t;
 
     int vector2[t];
     for (int i = 1; i <= t; ++i) {
         int num;
-        std::cout << "Digite un número: ";
+        std::cout << "Digite un nÃºmero: ";
         std::cin >> num;
         vector2[i] = num;
         acum2 += vector2[i];
