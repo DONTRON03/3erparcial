@@ -1,4 +1,4 @@
-//Actividad2_FilasyColumnas 29/05/24
+//Actividad5|30_FilasyColumnas 29/05/24
 #include <iostream>
 int main() {
     const int fila = 4;
