@@ -1,21 +1,22 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
 int numero;
-printf("Ingrese un numero entero: ");   
-scanf("%d",&numero);
+cout << "Ingrese un numero entero: ";   
+cin >> numero;
 
     if (numero % 2==0) {
-	printf("%d es un numero par",numero);
+	cout << numero << " es un numero par";
         
         if (numero % 3==0) {
-            printf(" %d tambien es multiplo de 3",numero);
+             cout << " " << numero << " tambien es multiplo de 3";
         } else {
-            printf(" %d no es multiplo de 3",numero);
+            cout << " " << numero << " no es multiplo de 3";
         }
     } 
 	else {
-        printf("%d es un numero impar ",numero);
+        cout << numero << " es un numero impar ";
     }
 return 0;
 }
