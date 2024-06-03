@@ -1,11 +1,12 @@
 #include <iostream>
 #define T "tambor de hojalata"
+using namespace std;
 int main ()
 {
     char st[21]="todo puede hacerse";
-    std::cout << T << std::endl;
-    std::cout << "Permiso para salir en la foto" <<std::endl;
-    std::cout << st <<std::endl;
-    std::cout << &st[8] << std::endl;
+    cout << T << endl;
+    cout << "Permiso para salir en la foto" <<endl;
+    cout << st <<endl;
+    cout << &st[8] << endl;
     return 0;
 }
