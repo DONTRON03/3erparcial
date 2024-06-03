@@ -1,30 +1,37 @@
-//Corregir el programa porque no Corre ya que tiene error en
-//Que marca en descuento, cot, total
 #include <iostream>
+using namespace std;
+
     int main() {
         int producto, unidad, subtotal, precio, descuento, iva;
-        std::cin>> unidad;
-        std::cout<< "cantidad de unidades = " << unidad <<std::endl;
-        std::cin>> precio;
-        std::cout<< "precio= " << precio << std::endl;
+        cout<< "ingresa la cantidad de unidades" << endl;
+        cin>> unidad;
+        cout<< "cantidad de unidades: " << unidad <<endl;
+        cout << "ingresa el precio " << endl;
+        cin>> precio;
+        cout<< "precio: " << precio << endl;
         subtotal = unidad * precio;
+
+
         if (subtotal<1000) {
             descuento = subtotal *0;
         }
-        if (subtotal>1000) {
+        else if (subtotal>1000) {
             descuento = subtotal *0,1;
-            std::cout<< "El descuento es de: " << descuneto << std::endl;
-		}		
-        if (subtotal>2000){
+            cout<< "El descuento es de: " << descuento << endl;
+		}
+        else if (subtotal>2000){
             descuento = subtotal *0.2;
-            std::cot<< "el descuento es de: " << descuento << std::endl;
+            cout<< "el descuento es de: " << descuento << endl;
         }
-            if (subtotal>3000){
+            else if (subtotal>3000){
                 descuento = subtotal *0.3;
+                cout<< "el descuento es de: " << descuento << endl;
             }
+
+            int total;
             iva = subtotal* 0.16;
             total = subtotal - descuento * iva;
-            std::cout<< " El total es de: " << total << std::endl;
-            
+            cout<< "El total es de: " << total << endl;
+
             return 0;
-    }  
+    }
