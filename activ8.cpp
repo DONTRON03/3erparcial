@@ -1,12 +1,13 @@
 #include <iostream>
+using namespace std;
 int main ()
 {
 int m=45, n =75;
-std::cout<< "m=" << m << "n=" << n << std::endl;
+cout<< "m=" << m << "n=" << n << endl;
 ++m;
 --n;
-std::cout<< "m=" << m << "n=" << n << std::endl;
+cout<< "m=" << m << "n=" << n << endl;
 m++;
 n--;
-std::cout<< "m=" << m << "n=" << n << std::endl;
+cout<< "m=" << m << "n=" << n << endl;
 }
