@@ -1,3 +1,5 @@
+//Corregir el programa porque no Corre ya que tiene error en
+//Que marca en descuento, cot, total
 #include <iostream>
     int main() {
         int producto, unidad, subtotal, precio, descuento, iva;
