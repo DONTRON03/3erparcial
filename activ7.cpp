@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main (){
 int a,b,c;
@@ -11,13 +12,13 @@ coord_y=725;
 a=b=c=45;
 a=(b=(c=45)); 
 
-std::cout<<codigo << " valor de la variable 'codigo' " << std::endl;
-std::cout<< fahrenheit << " valor de la variable 'fahrenheit' " << fahrenheit << std::endl;
-std::cout<< " valor de la variable 'coord_x': " << coord_x << std::endl;
-std::cout<< coord_y << " valor de la variable 'coord_y' " << std::endl;
-std::cout<< a << " valor de la variable 'a' " << std::endl;
-std::cout<< b << " valor de la variable 'b'" << std::endl;
-std::cout<< c << " valor de la variable 'c'" << std::endl;
+cout<<codigo << " valor de la variable 'codigo' " << endl;
+cout<< fahrenheit << " valor de la variable 'fahrenheit' " << fahrenheit << endl;
+cout<< " valor de la variable 'coord_x': " << coord_x << endl;
+cout<< coord_y << " valor de la variable 'coord_y' " << endl;
+cout<< a << " valor de la variable 'a' " << endl;
+cout<< b << " valor de la variable 'b'" << endl;
+cout<< c << " valor de la variable 'c'" << endl;
 
 
 }
