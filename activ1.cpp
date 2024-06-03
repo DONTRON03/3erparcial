@@ -1,16 +1,21 @@
-//Abrevia el std::cout
-//Agrega el IVA 
-//agrega 
-
 #include <iostream>
+using namespace std;
+
     int main() {
         int producto,unidad,subtotal,precio;
-        std::cin>> unidad;
-        std::cout<< "cantidad de unidades:" <<unidad<<std::endl;
-        std::cin>> precio;
-        std::cout<< "precio: " << precio << std::endl;
+        float IVA;
+        cout<< "ingresa la cantidad de unidades" << endl;
+        cin>> unidad;
+        cout<< "cantidad de unidades:" <<unidad<<endl;
+        cout << "ingresa el precio " << endl;
+        cin>> precio;
+        cout<< "precio: " << precio << endl;
+
         subtotal = unidad * precio;
-        std::cout << subtotal << std::endl;
-        
+        cout << "Subtotal: "<< subtotal << endl;
+
+        IVA = subtotal * 0.16;
+        cout<<"IVA: "<< IVA << endl;
+
         return 0;
     }
