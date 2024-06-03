@@ -1,3 +1,7 @@
+//Abrevia el std::cout
+//Agrega el IVA 
+//agrega 
+
 #include <iostream>
     int main() {
         int producto,unidad,subtotal,precio;
