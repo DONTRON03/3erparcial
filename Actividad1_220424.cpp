@@ -5,6 +5,8 @@ using namespace std;
 int main() {
     int x;
     x = 4 / 0;
+    cout<<"error, no se puede divir entre cero."<<endl;
+    
 }
 
 
