@@ -1,5 +1,5 @@
-//Realice la suma con otras variables 
 #include <iostream>
+using namespace std;
 int main ()
 {
         int x,y1;
@@ -8,9 +8,11 @@ int main ()
         if (x>10)
         {
             int y2=50;
-            y1=y1+y2;
+            int suma;
+            suma=y1+y2;
+            cout << "suma = " << suma << endl;
         }
-        
-    std::cout<< "x=" << x << " y1= " << y1<< std::endl;
+
+    cout<< "x=" << x << " y1= " << y1<< endl;
     return 0;
 }
