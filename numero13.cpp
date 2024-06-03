@@ -5,7 +5,7 @@
 int main() {
 	
     int sumf = 0;
-    int sumf2 = =;
+    int sumf2 = 0;
     int f;
     std::cout << "Digite el número de filas: ";
     std::cin >> f;
@@ -18,10 +18,9 @@ int main() {
     std::cout<<"Matriz A:  \n";
     for (int i = 0; i < f; ++i) {
         for (int j = 0; j < c; ++j) {
-            int numero;
             std::cout << "Digite dato para la fila " << i << " columna " << j << ": ";
             std::cin >> A[i][j];
-            acum += A[i][j];
+            sumf += A[i][j];
         }
     }
 	std::cout << "La suma de todos los elementos de la columna es: " << sumf << std::endl;
@@ -30,10 +29,9 @@ int main() {
     std::cout<<"Matriz B:  \n";
     for (int i = 0; i < f; ++i) {
         for (int j = 0; j < c; ++j) {
-            int numero;
             std::cout << "Digite dato para la fila " << i << " columna " << j << ": ";
             std::cin >> B[i][j];
-            acum += B[i][j];
+            sunf2 += B[i][j];
         }
     }
 	std::cout << "La suma de todos los elementos de la columna es: " << sumf << std::endl;
