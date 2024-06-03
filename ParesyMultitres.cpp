@@ -1,13 +1,14 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main (){
 	int xd,multitres;
-	printf("Introduzca el numero:");
-	scanf("%d",&xd);
+	cout << "Introduzca el numero:";
+	cin >> xd;
 	
 	if (xd%2==0){
-		printf("EL numero es par");
+		cout << "El numero es par";
 	} else if (xd%2>0){
-		printf("El numero es impar");
+		cout << "El numero es impar";
 	}
 
 }
