@@ -1,9 +1,10 @@
 #include <iostream>
+using namespace std;
 int main()
 {
     char primero, ultimo;
-    std::cout << "introduzca su primer y ultima inicial: " << std::endl;
-    std::cin >>primero >> ultimo;
-    std::cout << "hola " << primero << "."<< ultimo;
+    cout << "introduzca su primer y ultima inicial: " << endl;
+    cin >>primero >> ultimo;
+    cout << "hola " << primero << "."<< ultimo;
     return 0;
 } 
